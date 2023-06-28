@@ -1,0 +1,104 @@
+2023-06-28 09:01:25,959 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:01:25,961 INFO supervisord started with pid 1
+2023-06-28 09:01:26,964 INFO spawned: 'nginx' with pid 78
+2023-06-28 09:01:26,965 INFO spawned: 'sshd' with pid 79
+2023-06-28 09:01:26,971 INFO exited: sshd (exit status 1; not expected)
+2023-06-28 09:01:26,971 INFO exited: nginx (exit status 0; not expected)
+2023-06-28 09:01:27,974 INFO spawned: 'nginx' with pid 94
+2023-06-28 09:01:27,976 INFO spawned: 'sshd' with pid 95
+2023-06-28 09:01:27,976 WARN received SIGQUIT indicating exit request
+2023-06-28 09:01:27,976 INFO waiting for nginx, sshd to die
+2023-06-28 09:01:27,980 INFO stopped: sshd (exit status 1)
+2023-06-28 09:01:27,981 INFO stopped: nginx (terminated by SIGTERM)
+2023-06-28 09:01:48,088 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:01:48,091 INFO supervisord started with pid 1
+2023-06-28 09:01:49,093 INFO spawned: 'nginx' with pid 7
+2023-06-28 09:01:49,095 INFO spawned: 'sshd' with pid 8
+2023-06-28 09:01:49,100 INFO exited: nginx (exit status 0; not expected)
+2023-06-28 09:01:49,102 INFO exited: sshd (exit status 1; not expected)
+2023-06-28 09:01:50,106 INFO spawned: 'nginx' with pid 22
+2023-06-28 09:01:50,107 INFO spawned: 'sshd' with pid 23
+2023-06-28 09:01:50,113 INFO exited: sshd (exit status 1; not expected)
+2023-06-28 09:01:51,114 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:01:52,117 INFO spawned: 'sshd' with pid 24
+2023-06-28 09:01:52,124 INFO exited: sshd (exit status 1; not expected)
+2023-06-28 09:01:52,616 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:01:53,620 INFO spawned: 'nginx' with pid 25
+2023-06-28 09:01:54,628 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:01:55,131 INFO spawned: 'sshd' with pid 26
+2023-06-28 09:01:55,138 INFO exited: sshd (exit status 1; not expected)
+2023-06-28 09:01:55,138 INFO gave up: sshd entered FATAL state, too many start retries too quickly
+2023-06-28 09:01:56,130 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:01:57,134 INFO spawned: 'nginx' with pid 27
+2023-06-28 09:01:58,145 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:01:59,646 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:00,649 INFO spawned: 'nginx' with pid 28
+2023-06-28 09:02:01,657 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:03,158 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:04,162 INFO spawned: 'nginx' with pid 29
+2023-06-28 09:02:05,168 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:06,670 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:07,674 INFO spawned: 'nginx' with pid 30
+2023-06-28 09:02:08,685 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:10,186 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:11,190 INFO spawned: 'nginx' with pid 31
+2023-06-28 09:02:12,199 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:13,701 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:14,704 INFO spawned: 'nginx' with pid 32
+2023-06-28 09:02:15,711 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:17,212 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:18,215 INFO spawned: 'nginx' with pid 33
+2023-06-28 09:02:19,222 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:20,723 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:21,727 INFO spawned: 'nginx' with pid 34
+2023-06-28 09:02:22,734 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:24,236 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:25,240 INFO spawned: 'nginx' with pid 35
+2023-06-28 09:02:26,247 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-06-28 09:02:27,749 INFO exited: nginx (exit status 1; not expected)
+2023-06-28 09:02:28,751 INFO spawned: 'nginx' with pid 36
+2023-06-28 09:02:28,751 WARN received SIGQUIT indicating exit request
+2023-06-28 09:02:28,751 INFO waiting for nginx to die
+2023-06-28 09:02:28,757 INFO stopped: nginx (terminated by SIGTERM)
+2023-06-28 09:02:43,644 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:02:43,647 INFO supervisord started with pid 1
+2023-06-28 09:02:44,655 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:02:44,656 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:02:45,657 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:02:45,657 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:02:45,658 WARN received SIGQUIT indicating exit request
+2023-06-28 09:02:45,658 INFO waiting for nginx to die
+2023-06-28 09:02:55,761 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:02:55,763 INFO supervisord started with pid 1
+2023-06-28 09:02:56,765 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:02:56,765 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:02:57,767 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:02:57,767 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:02:59,770 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:02:59,770 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:03:02,773 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:03:02,774 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-06-28 09:03:02,774 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:03:02,774 INFO gave up: sshd entered FATAL state, too many start retries too quickly
+2023-06-28 09:03:14,788 WARN received SIGQUIT indicating exit request
+2023-06-28 09:22:50,418 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:22:50,420 INFO supervisord started with pid 1
+2023-06-28 09:22:51,421 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:22:51,421 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:22:52,423 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:22:52,423 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:22:52,424 WARN received SIGQUIT indicating exit request
+2023-06-28 09:22:52,424 INFO waiting for nginx to die
+2023-06-28 09:23:29,733 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-06-28 09:23:29,736 INFO supervisord started with pid 1
+2023-06-28 09:23:30,737 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:23:30,737 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:23:31,739 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:23:31,739 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:23:33,743 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:23:33,743 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:23:36,747 INFO spawnerr: can't find command 'nginx'
+2023-06-28 09:23:36,747 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-06-28 09:23:36,747 INFO spawnerr: can't find command '/usr/sbin/sshd'
+2023-06-28 09:23:36,747 INFO gave up: sshd entered FATAL state, too many start retries too quickly
+2023-06-28 09:24:20,798 WARN received SIGQUIT indicating exit request

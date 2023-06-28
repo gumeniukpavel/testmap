@@ -1,0 +1,254 @@
+  2023-06-28 09:48:31 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob .................. 17.40ms FAIL
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob ................... 1.73ms FAIL
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:48:31 App\Jobs\DeleteMarkerJob .................. 11.45ms FAIL
+  2023-06-28 09:48:34 App\Events\CreateMarkerEvent ........... 3,180.64ms DONE
+  2023-06-28 09:48:40 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 09:48:40 App\Events\CreateMarkerEvent ............. 367.08ms DONE
+  2023-06-28 09:49:37 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:49:37 App\Jobs\DeleteMarkerJob .................. 25.35ms DONE
+  2023-06-28 09:49:37 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 09:49:38 App\Events\DeleteMarkerEvent ........... 1,274.47ms DONE
+  2023-06-28 09:51:31 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 09:51:35 App\Events\CreateMarkerEvent ........... 4,398.69ms DONE
+  2023-06-28 09:51:49 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 09:51:49 App\Events\CreateMarkerEvent ............. 370.35ms DONE
+  2023-06-28 09:52:30 App\Jobs\DeleteMarkerJob ....................... RUNNING
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+
+   Whoops\Exception\ErrorException 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+  2023-06-28 09:52:49 App\Jobs\DeleteMarkerJob ....................... RUNNING
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+
+   Whoops\Exception\ErrorException 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+  2023-06-28 09:54:00 App\Jobs\DeleteMarkerJob ....................... RUNNING
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+
+   Whoops\Exception\ErrorException 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+  2023-06-28 09:54:19 App\Jobs\DeleteMarkerJob ....................... RUNNING
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+
+   Whoops\Exception\ErrorException 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+  2023-06-28 09:55:30 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:55:30 App\Jobs\DeleteMarkerJob .................. 23.39ms DONE
+  2023-06-28 09:55:30 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 09:55:31 App\Events\DeleteMarkerEvent ........... 1,089.08ms DONE
+  2023-06-28 09:55:49 App\Jobs\DeleteMarkerJob ....................... RUNNING
+
+   Symfony\Component\ErrorHandler\Error\FatalError 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+
+   Whoops\Exception\ErrorException 
+
+  Class App\Repositories\MarkerRepository contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Interfaces\MarkerRepositoryInterface::getMarkerByLatLng)
+
+  at app/Repositories/MarkerRepository.php:12
+      8▕ use App\Interfaces\MarkerRepositoryInterface;
+      9▕ use App\Jobs\DeleteMarkerJob;
+     10▕ use App\Models\Marker;
+     11▕ 
+  ➜  12▕ class MarkerRepository implements MarkerRepositoryInterface
+     13▕ {
+     14▕     public function getAllMarkers()
+     15▕     {
+     16▕         return Marker::all();
+
+      [2m+1 vendor frames [22m
+  2   [internal]:0
+      Whoops\Run::handleShutdown()
+  2023-06-28 09:57:19 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 09:57:19 App\Jobs\DeleteMarkerJob ................... 7.61ms FAIL
+  2023-06-28 10:12:50 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:12:50 App\Events\CreateMarkerEvent ............. 438.68ms DONE
+  2023-06-28 10:13:49 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:13:49 App\Jobs\DeleteMarkerJob .................. 28.48ms DONE
+  2023-06-28 10:13:49 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:13:51 App\Events\DeleteMarkerEvent ........... 1,579.32ms DONE
+  2023-06-28 10:16:32 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:16:34 App\Events\CreateMarkerEvent ........... 1,623.96ms DONE
+  2023-06-28 10:17:32 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:17:32 App\Jobs\DeleteMarkerJob .................. 38.52ms DONE
+  2023-06-28 10:17:32 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:17:33 App\Events\DeleteMarkerEvent ............. 479.26ms DONE
+  2023-06-28 10:17:38 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:17:39 App\Events\CreateMarkerEvent ............. 434.24ms DONE
+  2023-06-28 10:17:55 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:17:55 App\Events\CreateMarkerEvent ............. 349.55ms DONE
+  2023-06-28 10:18:37 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:18:37 App\Jobs\DeleteMarkerJob .................. 57.16ms DONE
+  2023-06-28 10:18:37 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:18:37 App\Events\DeleteMarkerEvent ............. 361.65ms DONE
+  2023-06-28 10:18:54 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:18:54 App\Jobs\DeleteMarkerJob .................. 42.25ms DONE
+  2023-06-28 10:18:54 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:18:54 App\Events\DeleteMarkerEvent ............. 482.19ms DONE
+  2023-06-28 10:22:24 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:22:24 App\Events\CreateMarkerEvent ............. 427.91ms DONE
+  2023-06-28 10:23:24 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:23:24 App\Jobs\DeleteMarkerJob .................. 56.49ms DONE
+  2023-06-28 10:23:24 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:23:29 App\Events\DeleteMarkerEvent ........... 5,017.02ms FAIL
+  2023-06-28 10:23:29 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:23:31 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:23:33 App\Events\DeleteMarkerEvent ........... 4,143.33ms DONE
+  2023-06-28 10:23:33 App\Events\CreateMarkerEvent ........... 2,008.00ms DONE
+  2023-06-28 10:24:31 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:24:31 App\Jobs\DeleteMarkerJob .................. 20.16ms DONE
+  2023-06-28 10:24:31 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:24:31 App\Events\DeleteMarkerEvent ............. 397.00ms DONE
+  2023-06-28 10:24:51 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:24:51 App\Events\CreateMarkerEvent ............. 224.66ms DONE
+  2023-06-28 10:25:51 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:25:51 App\Jobs\DeleteMarkerJob .................. 32.51ms DONE
+  2023-06-28 10:25:51 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:25:51 App\Events\DeleteMarkerEvent ............. 413.22ms DONE
+  2023-06-28 10:27:55 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 10:27:56 App\Events\CreateMarkerEvent ............. 457.35ms DONE
+  2023-06-28 10:28:55 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 10:28:55 App\Jobs\DeleteMarkerJob .................. 25.25ms DONE
+  2023-06-28 10:28:55 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 10:28:55 App\Events\DeleteMarkerEvent ............. 362.25ms DONE
