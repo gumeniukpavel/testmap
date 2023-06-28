@@ -252,3 +252,179 @@
   2023-06-28 10:28:55 App\Jobs\DeleteMarkerJob .................. 25.25ms DONE
   2023-06-28 10:28:55 App\Events\DeleteMarkerEvent ................... RUNNING
   2023-06-28 10:28:55 App\Events\DeleteMarkerEvent ............. 362.25ms DONE
+  2023-06-28 11:24:35 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:24:35 App\Events\CreateMarkerEvent ............. 411.04ms DONE
+  2023-06-28 11:24:47 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:24:47 App\Events\CreateMarkerEvent ............. 335.32ms DONE
+  2023-06-28 11:25:33 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:25:33 App\Jobs\DeleteMarkerJob .................. 14.89ms DONE
+  2023-06-28 11:25:33 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:25:33 App\Events\DeleteMarkerEvent ............. 337.85ms DONE
+  2023-06-28 11:25:47 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:25:47 App\Jobs\DeleteMarkerJob .................. 35.31ms DONE
+  2023-06-28 11:25:47 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:25:48 App\Events\DeleteMarkerEvent ............. 388.77ms DONE
+  2023-06-28 11:27:14 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:27:18 App\Events\CreateMarkerEvent ........... 3,721.18ms DONE
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+   Predis\Connection\ConnectionException 
+
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+   Predis\Connection\ConnectionException 
+
+  Operation in progress [tcp://laravel_docker_redis:6379]
+
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+  at vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+32 vendor frames [22m
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+
+      [2m+32 vendor frames [22m
+  33  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+  2023-06-28 11:28:13 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:28:13 App\Jobs\DeleteMarkerJob .................. 30.01ms DONE
+  2023-06-28 11:28:13 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:28:14 App\Events\DeleteMarkerEvent ............. 341.96ms DONE
+  2023-06-28 11:28:21 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:28:22 App\Events\CreateMarkerEvent ............. 404.86ms DONE
+  2023-06-28 11:29:21 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:29:21 App\Jobs\DeleteMarkerJob .................. 12.57ms DONE
+  2023-06-28 11:29:21 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:29:21 App\Events\DeleteMarkerEvent ............. 252.27ms DONE
