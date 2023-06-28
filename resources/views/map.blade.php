@@ -31,20 +31,10 @@
     var channel = pusher.subscribe('my-channel');
     channel.bind('create-marker', function (data) {
         var params = JSON.parse(data.params)
-        var markerIfExist = findMarkerIfExist(params)
         var latlng = [params.lat, params.lng]
-        if (!markerIfExist) {
-            var marker = L.marker(latlng)
-            marker.addTo(map)
-            map.setView(latlng, 3)
-        } else {
-            L.popup({
-                closeButton: true
-            })
-                .setLatLng(latlng)
-                .setContent('<p>Marker Already Exist</p>')
-                .openOn(map);
-        }
+        var marker = L.marker(latlng)
+        marker.addTo(map)
+        map.setView(latlng, 3)
     });
 
     channel.bind('remove-marker', function (data) {

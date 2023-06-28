@@ -428,3 +428,17 @@
   2023-06-28 11:29:21 App\Jobs\DeleteMarkerJob .................. 12.57ms DONE
   2023-06-28 11:29:21 App\Events\DeleteMarkerEvent ................... RUNNING
   2023-06-28 11:29:21 App\Events\DeleteMarkerEvent ............. 252.27ms DONE
+  2023-06-28 11:37:04 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:37:05 App\Events\CreateMarkerEvent ............. 419.13ms DONE
+  2023-06-28 11:38:04 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:38:04 App\Jobs\DeleteMarkerJob .................. 15.75ms DONE
+  2023-06-28 11:38:04 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:38:04 App\Events\DeleteMarkerEvent ............. 294.00ms DONE
+  2023-06-28 11:38:13 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:38:13 App\Events\CreateMarkerEvent ............. 228.05ms DONE
+  2023-06-28 11:39:13 App\Jobs\DeleteMarkerJob ....................... RUNNING
+  2023-06-28 11:39:13 App\Jobs\DeleteMarkerJob .................. 10.23ms DONE
+  2023-06-28 11:39:13 App\Events\DeleteMarkerEvent ................... RUNNING
+  2023-06-28 11:39:13 App\Events\DeleteMarkerEvent ............. 241.46ms DONE
+  2023-06-28 11:39:22 App\Events\CreateMarkerEvent ................... RUNNING
+  2023-06-28 11:39:23 App\Events\CreateMarkerEvent ............. 407.67ms DONE
